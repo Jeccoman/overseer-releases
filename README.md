@@ -16,4 +16,4 @@ Current published structure:
 - `releases/releases.json`
 - `releases/notes/<tag>.md`
 
-The private source repo can reference this repository for public downloads without exposing application code.
+
