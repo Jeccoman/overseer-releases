@@ -1,0 +1,28 @@
+{
+    "product":  "Overseer",
+    "version":  "0.1.0",
+    "tag":  "v0.1.0",
+    "channel":  "stable",
+    "built_at":  "2026-03-22T16:25:24.8046633Z",
+    "platform":  "windows-x64",
+    "assets":  [
+                   {
+                       "sha256":  "d1c9fdc4aa0945383755b736ec23daad34c7e0096d8bc3c7149d02b24a8da265",
+                       "name":  "Overseer-v0.1.0-windows-x64.zip",
+                       "size":  23016908,
+                       "kind":  "portable-zip"
+                   },
+                   {
+                       "sha256":  "7cd8bbe1ebaaa12324c68daa8042767db4d5ed9758a53c13de0d92375bb7a389",
+                       "name":  "install-overseer.ps1",
+                       "size":  2478,
+                       "kind":  "installer-script"
+                   },
+                   {
+                       "sha256":  "ac92c390726d88f92a9f153251eba486625b7394043dbc9e9b50fd31c9125503",
+                       "name":  "uninstall-overseer.ps1",
+                       "size":  557,
+                       "kind":  "uninstaller-script"
+                   }
+               ]
+}
