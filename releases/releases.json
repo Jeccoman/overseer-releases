@@ -1,16 +1,16 @@
 {
   "product": "Overseer",
-  "updated_at": "2026-03-28T00:00:00Z",
-  "latest": "v0.1.3",
+  "updated_at": "2026-05-09T00:00:00Z",
+  "latest": "v0.1.4",
   "channels": {
-    "latest": "v0.1.3",
-    "stable": "v0.1.3"
+    "latest": "v0.1.4",
+    "stable": "v0.1.4"
   },
   "badges": [
     {
       "key": "latest",
       "label": "Latest",
-      "value": "v0.1.3",
+      "value": "v0.1.4",
       "color": "2563eb"
     },
     {
@@ -28,14 +28,115 @@
   ],
   "releases": [
     {
-      "version": "0.1.3",
-      "tag": "v0.1.3",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
       "channel": "stable",
       "is_latest": true,
       "is_stable": true,
       "labels": [
         "latest",
         "stable",
+        "windows-x64",
+        "linux-x64",
+        "macos-x64"
+      ],
+      "published_at": "2026-05-09T00:00:00Z",
+      "summary": "Overseer v0.1.4 overhauls the core engine with a new Architecture, delivering intent-aware synthesis, multimodal perception, grounding decoupling, and user attachment visibility — alongside the first binary size optimization pass for desktop.",
+      "notes_file": "releases/notes/v0.1.4.md",
+      "assets": [
+        {
+          "name": "Overseer-v0.1.4-windows-x64-setup.exe",
+          "platform": "windows-x64",
+          "kind": "setup-exe",
+          "label": "Windows Installer",
+          "path": "dist/v0.1.4/Overseer-v0.1.4-windows-x64-setup.exe"
+        },
+        {
+          "name": "Overseer-v0.1.4-windows-x64.zip",
+          "platform": "windows-x64",
+          "kind": "portable-zip",
+          "label": "Windows Portable Zip",
+          "path": "dist/v0.1.4/Overseer-v0.1.4-windows-x64.zip"
+        },
+        {
+          "name": "install-overseer.ps1",
+          "platform": "windows-x64",
+          "kind": "installer-script",
+          "label": "Install Script",
+          "path": "dist/v0.1.4/install-overseer.ps1"
+        },
+        {
+          "name": "uninstall-overseer.ps1",
+          "platform": "windows-x64",
+          "kind": "uninstaller-script",
+          "label": "Uninstall Script",
+          "path": "dist/v0.1.4/uninstall-overseer.ps1"
+        },
+        {
+          "name": "SHA256SUMS-windows-x64.txt",
+          "platform": "windows-x64",
+          "kind": "checksums",
+          "label": "SHA256 Checksums",
+          "path": "dist/v0.1.4/SHA256SUMS-windows-x64.txt"
+        },
+        {
+          "name": "release-windows-x64.json",
+          "platform": "windows-x64",
+          "kind": "release-manifest",
+          "label": "Release Manifest",
+          "path": "dist/v0.1.4/release-windows-x64.json"
+        },
+        {
+          "name": "Overseer-v0.1.4-amd64.deb",
+          "platform": "linux-x64",
+          "kind": "deb",
+          "label": "Linux DEB",
+          "path": "dist/v0.1.4/Overseer-v0.1.4-amd64.deb"
+        },
+        {
+          "name": "SHA256SUMS-linux-x64.txt",
+          "platform": "linux-x64",
+          "kind": "checksums",
+          "label": "Linux Checksums",
+          "path": "dist/v0.1.4/SHA256SUMS-linux-x64.txt"
+        },
+        {
+          "name": "release-linux-x64.json",
+          "platform": "linux-x64",
+          "kind": "release-manifest",
+          "label": "Linux Release Manifest",
+          "path": "dist/v0.1.4/release-linux-x64.json"
+        },
+        {
+          "name": "Overseer-v0.1.4.dmg",
+          "platform": "macos-x64",
+          "kind": "dmg",
+          "label": "macOS Disk Image",
+          "path": "dist/v0.1.4/Overseer-v0.1.4.dmg"
+        },
+        {
+          "name": "SHA256SUMS-macos-x64.txt",
+          "platform": "macos-x64",
+          "kind": "checksums",
+          "label": "macOS Checksums",
+          "path": "dist/v0.1.4/SHA256SUMS-macos-x64.txt"
+        },
+        {
+          "name": "release-macos-x64.json",
+          "platform": "macos-x64",
+          "kind": "release-manifest",
+          "label": "macOS Release Manifest",
+          "path": "dist/v0.1.4/release-macos-x64.json"
+        }
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "channel": "stable",
+      "is_latest": false,
+      "is_stable": false,
+      "labels": [
         "windows-x64"
       ],
       "published_at": "2026-03-28T00:00:00Z",

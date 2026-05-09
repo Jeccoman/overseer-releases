@@ -1,0 +1,16 @@
+{
+  "product": "Overseer",
+  "version": "0.1.4",
+  "tag": "v0.1.4",
+  "channel": "stable",
+  "built_at": "2026-05-09T06:01:34Z",
+  "platform": "linux-x64",
+  "assets": [
+    {
+      "name": "Overseer-v0.1.4-amd64.deb",
+      "kind": "deb",
+      "sha256": "2b1c2bc5b8bb7c72cdba886645f04ed36b8383d632774fa8af6b3c487b2170a6",
+      "size": 25665034
+    }
+  ]
+}
