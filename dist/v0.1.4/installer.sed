@@ -1,0 +1,34 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=4
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=1
+HideExtractAnimation=0
+UseLongFileName=1
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=
+DisplayLicense=
+FinishMessage=Overseer setup finished.
+TargetName=C:\Users\Administrator\Desktop\overseer\dist\v0.1.4\Overseer-v0.1.4-windows-x64-setup.exe
+FriendlyName=Overseer Setup
+AppLaunched=run-installer.cmd
+PostInstallCmd=<None>
+AdminQuietInstCmd=run-installer.cmd
+UserQuietInstCmd=run-installer.cmd
+SourceFiles=SourceFiles
+[SourceFiles]
+SourceFiles0=C:\Users\Administrator\Desktop\overseer\dist\v0.1.4
+[SourceFiles0]
+%FILE0%=
+%FILE1%=
+%FILE2%=
+%FILE3%=
+[Strings]
+FILE0=Overseer-v0.1.4-windows-x64.zip
+FILE1=install-overseer.ps1
+FILE2=uninstall-overseer.ps1
+FILE3=run-installer.cmd
